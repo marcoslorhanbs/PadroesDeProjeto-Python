@@ -1,0 +1,7 @@
+------------------Exemplos para o Padrão Strategy-----------
+
+imagine a problemática do cálculo de frete. Suponha que temos um ecommerce semelhante ao Mercado Livre e na aplicação de vendas um Pedido possua duas formas diferentes (estratégias) de se calcular a taxa de entrega do mesmo: Padrão e Expresso.
+
+    Vamos criar pedidos (Orders);
+    Um pedido depois de realizado não pode ser alterado;
+    O frete é aplicado em cima de cada pedido.
